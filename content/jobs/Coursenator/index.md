@@ -3,7 +3,7 @@ date: '2022-1-6'
 title: 'Backend Developer'
 company: 'Coursenator'
 location: 'New Delhi, India'
-range: 'January, 2022 - Present'
+range: 'January, 2022 - April, 200'
 url: 'https://coursenator.com/'
 ---
 
