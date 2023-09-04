@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'NextJs', 'NodeJs', 'HTML/CSS', 'Python', 'JAVA'];
+  const skills = ['JS/TS', 'NextJs', 'MERN', 'Docker', 'JAVA', 'Python', 'AWS', 'ML/DL'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,19 +136,17 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Saptarshi and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2020 when I decided to try to create colorful and responsive
-              websites using only
-              HTML CSS &amp; Js!
+              I embarked on my journey in the field of development back in 2020 when I began
+              creating websites and applications for Discord and desktop platforms. Fast-forward to
+              the present day, and I've had the privilege of working as a Backend Developer and Data
+              Science Intern at three different companies.
             </p>
-
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://coursenator.com/">a start-up</a>,{' '} and various freelance projects. My
-              main focus these days is building accessible, inclusive functionalities and digital
-              experiences at <a href="https://coursenator.com/">Coursenator</a> for their EdTech platform.
+              Other than that, I'm a GitHub Campus Expert and Microsoft Azure Dev Lead for the
+              Kolkata chapter. I actively participate in numerous developer communities, including
+              GDSC and the Coding community at my college. Furthermore, I have a passion for
+              attending in-person meetups and (and occasionally winning) Hackathons.
             </p>
-
             <p>
               I also write blogs.{' '}
               <a href="https://highonbugs.hashnode.dev/why-is-random-forest-better-than-decision-trees">

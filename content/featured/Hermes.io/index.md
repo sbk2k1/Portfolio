@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '6'
 title: 'Hermes.io '
 cover: './course-card.png'
 external: 'https://hermes-io-chat-app.herokuapp.com/'

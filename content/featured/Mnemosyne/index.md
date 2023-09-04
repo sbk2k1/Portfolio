@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '3'
 title: 'Mnemosyne'
 cover: './halcyon.png'
 github: 'https://github.com/sbk2k1/Mnemosyne'
