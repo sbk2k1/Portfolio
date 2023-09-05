@@ -3,7 +3,7 @@ date: '2022-7-1'
 title: 'Data Science Intern'
 company: 'Contelligenz'
 location: 'India'
-range: 'July, 2022 - Present'
+range: 'July, 2022 - November, 2022'
 url: 'https://contelligenz.com/'
 ---
 

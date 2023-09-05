@@ -3,7 +3,7 @@ date: '2023-5-22'
 title: 'Intern'
 company: 'RPSG Ventures'
 location: 'Kolkata, India'
-range: 'May, 2023 - Present'
+range: 'May, 2023 - July, 2023'
 ---
 
 - Worked on containerization of applications.
