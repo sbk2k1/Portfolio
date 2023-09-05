@@ -16,12 +16,12 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/saptarshi-bhattacharya-b9346a203/',
+      url: 'https://www.linkedin.com/in/sbk2k1/',
     },
     {
       name: 'Hashnode',
       url: 'https://highonbugs.hashnode.dev',
-    }
+    },
   ],
 
   navLinks: [

@@ -3,8 +3,7 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'SBK',
-    description:
-      'Saptarshi is a Developer who specializes in building, just building.',
+    description: 'Saptarshi is a Developer who specializes in building, just building.',
     siteUrl: 'https://sbk.in', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@sbk2k1',
@@ -17,6 +16,12 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
+    {
+      resolve: `gatsby-plugin-vercel`,
+      options: {
+        debug: false,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
