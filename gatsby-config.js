@@ -17,12 +17,6 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     {
-      resolve: `@vercel/gatsby-plugin-vercel-analytics`,
-      options: {
-        debug: false,
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Saptarshi Bhattacharya',
