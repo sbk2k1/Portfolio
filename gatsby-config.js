@@ -148,22 +148,10 @@ module.exports = {
         ],
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: 'G-Z2E8VNHC39',
-    //   },
-    // },
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingIds: [
-          `G-Z2E8VNHC39`, // Google Analytics / GA
-        ],
-        pluginConfig: {
-          // Puts tracking script in the head instead of the body
-          head: true,
-        },
+        trackingId: 'G-Z2E8VNHC39',
       },
     },
   ],
