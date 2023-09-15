@@ -145,7 +145,7 @@ const About = () => {
               Other than that, I'm a GitHub Campus Expert and Microsoft Azure Dev Lead for the
               Kolkata chapter. I actively participate in numerous developer communities, including
               GDSC and the Coding community at my college. Furthermore, I have a passion for
-              attending in-person meetups and (and occasionally winning) Hackathons.
+              attending in-person meetups, entrepreneurship and (and occasionally winning) Hackathons.
             </p>
             <p>
               I also write blogs.{' '}
