@@ -2,8 +2,8 @@
 date: '6'
 title: 'SOWS '
 cover: './course-card.png'
-external: 'https://sows.vercel.app/'
-cta: 'https://github.com/sbk2k1/sows'
+external: 'https://www.youtube.com/watch?v=NNfp-58yXsA'
+cta: 'https://sows.vercel.app/'
 tech:
   - Python
   - QTDesigner
