@@ -1,17 +1,16 @@
 ---
 date: '6'
-title: 'Hermes.io '
+title: 'SOWS '
 cover: './course-card.png'
-external: 'https://hermes-io-chat-app.herokuapp.com/'
-cta: 'https://github.com/sbk2k1/Hermes.io'
+external: 'https://sows.vercel.app/'
+cta: 'https://github.com/sbk2k1/sows'
 tech:
-  - Nodejs
-  - Expressjs
-  - Socket.io
-  - Styled Components
+  - Python
+  - QTDesigner
+  - Multi-Threading
+  - PyAudio
 ---
 
-I made this project to experiment and learn about Websockets after I had some experience with backend tech stacks
-like NodeJs and ExpressJs
+I made this project to experiment and learn how signals work in real-time applications.
 
-Hermes.io is a real-time chat application with chat room system. Some minor functionalities include autoscrolling with new messages and stopping the autoscrolling on user interference. You can join any chatroom and see the members on the left. Admin is the system that notifies about the arrival or exit of any user.
+SOWS helps to get real time signals from an audio device and translate it to actions. Hence, the video of you playing a game using your GUITAR!
