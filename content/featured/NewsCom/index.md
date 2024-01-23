@@ -1,7 +1,7 @@
 ---
 date: '6'
 title: 'NewsCom'
-cover: './halcyon.png'
+cover: './pic.png'
 github: 'https://github.com/High-on-Bugs/HoB-Community-Newsletter'
 external: 'https://newscom.sbk2k1.tech/'
 tech:
