@@ -3,7 +3,7 @@ date: '2'
 title: 'Vitalis'
 cover: './dashboard.png'
 github: 'https://github.com/sbk2k1/Vitalis'
-external: 'https://www.youtube.com/watch?v=D59FPIxAntc&feature=youtu.be'
+external: 'https://www.youtube.com/watch?v=C80H6FsO_ek'
 tech:
   - NodeJS
   - MongoDB
