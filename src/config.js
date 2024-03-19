@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'bhattacharyasaptarshi2001@gmail.com',
+  email: 'mail@sbk2k1.in',
 
   socialMedia: [
     {
@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'Hashnode',
-      url: 'https://highonbugs.hashnode.dev',
+      url: 'https://highonbugs.sbk2k1.in',
     },
   ],
 
