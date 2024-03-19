@@ -3,7 +3,7 @@ date: '3'
 title: 'Mnemosyne'
 cover: './halcyon.png'
 github: 'https://github.com/sbk2k1/Mnemosyne'
-external: 'https://mnemosyne.vercel.app/'
+external: 'https://mnemosyne.sbk2k1.in/'
 tech:
   - Python
   - PyQt5

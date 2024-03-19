@@ -3,7 +3,7 @@ date: '7'
 title: 'SOWS '
 cover: './course-card.png'
 external: 'https://www.youtube.com/watch?v=NNfp-58yXsA'
-cta: 'https://sows.vercel.app/'
+cta: 'https://sows.sbk2k1.in/'
 tech:
   - Python
   - QTDesigner

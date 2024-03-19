@@ -3,7 +3,7 @@ date: '6'
 title: 'NewsCom'
 cover: './pic.png'
 github: 'https://github.com/High-on-Bugs/HoB-Community-Newsletter'
-external: 'https://newscom.sbk2k1.tech/'
+external: 'https://newscom.sbk2k1.in/'
 tech:
   - GitHub Actions
   - GitHub API

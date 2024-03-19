@@ -2,7 +2,7 @@
 date: '2019-11-12'
 title: 'My ML Notes and Blogs'
 github: 'https://github.com/sbk2k1/ML-Notes'
-external: 'https://highonbugs.hashnode.dev/why-is-random-forest-better-than-decision-trees'
+external: 'https://highonbugs.sbk2k1.in/why-is-random-forest-better-than-decision-trees'
 tech:
   - Python
 company: 'Upstatement'
