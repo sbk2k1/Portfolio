@@ -2,7 +2,7 @@
 date: '2020-03-27'
 title: 'Air Official Website'
 github: 'https://github.com/sbk2k1/air'
-external: 'https://airofficial.vercel.app/'
+external: 'https://air.sbk2k1.in/'
 tech:
   - React
   - CSS

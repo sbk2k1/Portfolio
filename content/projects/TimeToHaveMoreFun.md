@@ -1,14 +1,13 @@
 ---
-date: '2020-01-10'
-title: 'Wall-E'
-github: 'https://github.com/sbk2k1/Wall-E'
-external: ''
+date: '2022-01-10'
+title: 'Arcade'
+github: 'https://github.com/sbk2k1/arcade-website'
+external: 'https://arcade.sbk2k1.in/'
 tech:
-  - Nodejs
-  - Expressjs
-  - MongoDB
+  - Reactjs
+  - CSS
 company: ''
 showInProjects: true
 ---
 
-A Wallpaper App backend structure created using NodeJs, ExpressJs.
+Landing page for Arcade
