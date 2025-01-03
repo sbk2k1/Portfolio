@@ -4,19 +4,19 @@ module.exports = {
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/sbk2k1',
+      url: 'https://github.sbk2k1.in/',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/sbk_2k1/',
+      url: 'https://instagram.sbk2k1.in/',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/sbk_2k1',
+      url: 'https://twitter.sbk2k1.in/',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/sbk2k1/',
+      url: 'https://linkedin.sbk2k1.in/',
     },
     {
       name: 'Hashnode',
