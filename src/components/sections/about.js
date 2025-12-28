@@ -10,7 +10,7 @@ const StyledAboutSection = styled.section`
 
   .inner {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 2fr 3fr;
     grid-gap: 50px;
 
     @media (max-width: 768px) {
@@ -133,36 +133,6 @@ const About = () => {
       <h2 className="numbered-heading">About Me</h2>
 
       <div className="inner">
-        <StyledText>
-          <div>
-            <p>
-              I embarked on my journey in the field of development back in 2020 when I began
-              creating websites and applications for Discord and desktop platforms. Fast-forward to
-              the present day, and I've had the privilege of working as a Backend Developer and Data
-              Science Intern at three different companies.
-            </p>
-            <p>
-              Other than that, I'm a GitHub Campus Expert and Microsoft Azure Dev Lead for the
-              Kolkata chapter. I actively participate in numerous developer communities, including
-              GDSC and the Coding community at my college. Furthermore, I have a passion for
-              attending in-person meetups, entrepreneurship and (and occasionally winning) Hackathons.
-            </p>
-            <p>
-              I also write blogs.{' '}
-              <a href="https://highonbugs.hashnode.dev/why-is-random-forest-better-than-decision-trees">
-                Your can check my first blog here,
-              </a>{' '}
-              that covers why Random Forests are better than Decision Trees.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
-          </div>
-
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
-        </StyledText>
-
         <StyledPic>
           <div className="wrapper">
             <StaticImage
@@ -175,6 +145,46 @@ const About = () => {
             />
           </div>
         </StyledPic>
+        <StyledText>
+          <div>
+            <p>
+              I am a versatile Software Engineer with a strong foundation in both Machine Learning
+              and Full Stack Web Development. My professional experience spans across dynamic roles
+              where I have delivered high-impact solutions. At <strong>Coursenator</strong>, I
+              optimized search and data retrieval performance by 6x and integrated ML-driven text
+              processing features. As a Data Science Intern at <strong>Contelligenz</strong>, I
+              engineered robust data pipelines and developed metric-based recommendation models. At{' '}
+              <strong>RPSG Ventures</strong>, I focused on DevOps practices, implementing
+              containerization with Kubernetes and building system health monitoring tools.
+            </p>
+            <p>
+              Currently, I specialize in building <strong>AI Agents</strong> and applications for
+              automation and in-house business optimization. My work operates at the intersection of{' '}
+              <strong>AI</strong>, <strong>DevOps</strong>, and{' '}
+              <strong>Full Stack Development</strong>, where I architect and deploy comprehensive
+              CRM and billing systems.
+            </p>
+            <p>
+              Previously, I was an active community leader, serving as a{' '}
+              <strong>GitHub Campus Expert</strong> and <strong>Microsoft Azure Dev Lead</strong>{' '}
+              (Kolkata Chapter), mentoring developers and organizing events. I continue to be an
+              avid hackathon enthusiast and technical writer.
+            </p>
+            <p>
+              I also write blogs. You can check out my article on{' '}
+              <a href="https://highonbugs.hashnode.dev/why-is-random-forest-better-than-decision-trees">
+                why Random Forests outperform Decision Trees
+              </a>
+              .
+            </p>
+
+            <p>Here are a few technologies I’ve been working with recently:</p>
+          </div>
+
+          <ul className="skills-list">
+            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+        </StyledText>
       </div>
     </StyledAboutSection>
   );

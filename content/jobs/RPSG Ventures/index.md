@@ -1,12 +1,13 @@
 ---
 date: '2023-5-22'
-title: 'Intern'
+title: 'Executive'
 company: 'RPSG Ventures'
 location: 'Kolkata, India'
-range: 'May, 2023 - July, 2023'
+range: 'May, 2023 - Present'
 ---
 
-- Worked on containerization of applications.
-- Worked on configuration of Virtual Hosts.
+- Spearheading DevOps practices, implementing containerization with Kubernetes and Podman.
+- Architecting and deploying comprehensive CRM and billing systems.
+- Developing AI Agents and applications for automation and in-house business optimization.
 - Created a Server and Database health monitoring system.
-- Learnt Kubernetes and Podman for containerization and orchestration.
+- Working on configuration of Virtual Hosts and containerization of applications.

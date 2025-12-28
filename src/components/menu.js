@@ -266,8 +266,11 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/resume.pdf" className="resume-link">
-              Resume
+            <a href="/resume_ML.pdf" className="resume-link">
+              Resume (ML)
+            </a>
+            <a href="/resume_WEB.pdf" className="resume-link" style={{ marginTop: '15px' }}>
+              Resume (Web)
             </a>
           </nav>
         </StyledSidebar>
