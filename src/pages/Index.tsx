@@ -1,9 +1,5 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import heroBg from "@/assets/hero-bg.jpg";
-import aboutBg from "@/assets/about-bg.jpg";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
@@ -13,6 +9,11 @@ import BracketLabel from "@/components/BracketLabel";
 import ServicesMarquee from "@/components/ServicesMarquee";
 
 const Index = () => {
+  const heroBg = "/assets/hero-bg.jpg";
+  const aboutBg = "/assets/about-bg.jpg";
+  const project1 = "/assets/project-1.jpg";
+  const project2 = "/assets/project-2.jpg";
+
   return (
     <div className="bg-background min-h-screen overflow-x-hidden">
       <Navbar />

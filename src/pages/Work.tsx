@@ -4,13 +4,13 @@ import ProjectCard from "@/components/ProjectCard";
 import ScrollReveal from "@/components/ScrollReveal";
 import BracketLabel from "@/components/BracketLabel";
 import { motion } from "framer-motion";
-import heroBg from "@/assets/hero-bg.jpg";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
-import project4 from "@/assets/project-4.jpg";
-import emotionImage from "@/assets/emotion.jpg";
-import sudokuImage from "@/assets/sudoku.jpg";
+const heroBg = "/assets/hero-bg.jpg";
+const project1 = "/assets/project-1.jpg";
+const project2 = "/assets/project-2.jpg";
+const project3 = "/assets/project-3.jpg";
+const project4 = "/assets/project-4.jpg";
+const emotionImage = "/assets/emotion.jpg";
+const sudokuImage = "/assets/sudoku.jpg";
 
 const projects = [
   {

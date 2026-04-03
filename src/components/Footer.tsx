@@ -4,6 +4,7 @@ import { useRef } from "react";
 const Footer = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const resumePdf = "/assets/resume.pdf";
 
   return (
     <footer className="relative bg-background border-t border-border">
@@ -68,7 +69,29 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-border px-6 md:px-10 py-6 flex justify-between items-center">
-        <span className="bracket-text">[SAPTARSHI BHATTACHARYA]</span>
+        <div className="flex flex-wrap items-center gap-3 md:gap-5">
+          <span className="bracket-text">[SAPTARSHI BHATTACHARYA]</span>
+          <a
+            href="mailto:mail@sbk2k1.in"
+            className="font-mono text-[0.68rem] text-muted-foreground hover:text-gold transition-colors"
+          >
+            mail@sbk2k1.in
+          </a>
+          <a
+            href="tel:+917439753613"
+            className="font-mono-nav text-muted-foreground hover:text-gold transition-colors"
+          >
+            +91-7439753613
+          </a>
+          <a
+            href={resumePdf}
+            target="_blank"
+            rel="noreferrer"
+            className="font-mono-nav text-muted-foreground hover:text-gold transition-colors"
+          >
+            RESUME
+          </a>
+        </div>
         <span className="bracket-text">[COPYRIGHT 2026]</span>
       </div>
     </footer>

@@ -5,7 +5,7 @@ import SplitText from "@/components/SplitText";
 import BracketLabel from "@/components/BracketLabel";
 import ServicesMarquee from "@/components/ServicesMarquee";
 import { motion } from "framer-motion";
-import portrait from "@/assets/portrait.jpg";
+const portrait = "/assets/portrait.jpg";
 
 const experience = [
   { year: "2024 — NOW", role: "Executive (Data, AI, Platform)", company: "RPSG VENTURES" },
