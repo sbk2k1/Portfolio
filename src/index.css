@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 40 10% 90%;
+
+    --card: 0 0% 7%;
+    --card-foreground: 40 10% 90%;
+
+    --popover: 0 0% 7%;
+    --popover-foreground: 40 10% 90%;
+
+    --primary: 40 50% 65%;
+    --primary-foreground: 0 0% 4%;
+
+    --secondary: 160 30% 12%;
+    --secondary-foreground: 40 10% 90%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 55%;
+
+    --accent: 160 40% 18%;
+    --accent-foreground: 40 10% 90%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 40 50% 65%;
+
+    --radius: 0rem;
+
+    --gold: 40 50% 65%;
+    --gold-light: 40 60% 75%;
+    --dark-green: 160 30% 8%;
+    --nav-mono: 0 0% 45%;
+
+    --sidebar-background: 0 0% 6%;
+    --sidebar-foreground: 40 10% 90%;
+    --sidebar-primary: 40 50% 65%;
+    --sidebar-primary-foreground: 0 0% 4%;
+    --sidebar-accent: 160 30% 12%;
+    --sidebar-accent-foreground: 40 10% 90%;
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: 40 50% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    cursor: default;
+  }
+
+  ::selection {
+    background: hsl(var(--gold) / 0.3);
+    color: hsl(var(--foreground));
+  }
+}
+
+@layer components {
+  .text-gold {
+    color: hsl(var(--gold));
+  }
+
+  .bg-dark-green {
+    background-color: hsl(var(--dark-green));
+  }
+
+  .font-display {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .font-mono-nav {
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+
+  .text-massive {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    line-height: 0.85;
+    letter-spacing: -0.03em;
+  }
+
+  .text-massive-hero {
+    font-size: clamp(8rem, 22vw, 28rem);
+  }
+
+  .text-massive-section {
+    font-size: clamp(6rem, 16vw, 20rem);
+  }
+
+  .bracket-text {
+    font-family: 'Space Mono', monospace;
+    color: hsl(var(--gold));
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  .services-marquee {
+    @apply flex whitespace-nowrap;
+    animation: marquee 20s linear infinite;
+  }
+
+  .project-card {
+    @apply relative overflow-hidden cursor-pointer;
+  }
+
+  .project-card img {
+    @apply transition-transform duration-700 ease-out;
+  }
+
+  .project-card:hover img {
+    @apply scale-105;
+  }
+
+  .scroll-indicator {
+    @apply font-mono-nav text-gold;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+}
+
+@layer utilities {
+  .mask-fade-bottom {
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
