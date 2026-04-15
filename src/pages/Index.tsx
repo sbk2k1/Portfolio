@@ -56,6 +56,12 @@ const Index = () => {
             <span>S</span>
             <span>B</span>
             <span>K</span>
+            {/* <span>T</span>
+            <span>A</span>
+            <span>R</span>
+            <span>S</span>
+            <span>S</span>
+            <span>I</span> */}
           </motion.div>
         </div>
 
